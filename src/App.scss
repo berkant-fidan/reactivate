@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-header{
+  background-color: tomato;
+  padding: 1rem;
+  
+  .page-navigation{
+    display: flex;
+    justify-content: space-between;
+
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+
+.page-title{
+  font-size: 1.24rem;
+  margin-bottom: 0;
+  color: white;
+}
+.section-slider{
+  position: relative;
+  z-index: 1;
+  background-color: wheat;
+  height: 300px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.section-news{
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+.section-title{
+  font-size: 1.634rem;
+  font-weight: 400;
+  margin-bottom: 1.35rem;
+}
+.news-item{
+  box-shadow: 0 3px 6px #4444;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.news-title{
+  font-size: 1.246rem;
+  font-weight: 600;
+}
+
+
+.page-footer{
+  background-color: thistle;
+  padding: .75rem;
+}
+.page-footer p{
+  margin-bottom: 0;
+}
